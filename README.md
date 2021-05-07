@@ -17,3 +17,5 @@
 
 
 This repo has a sample state of what your development and master/prod branch should look like when using Realm Apps with Github Autodeploy
+
+[Environment Variable Docs](https://docs.mongodb.com/realm/values-and-secrets/define-environment-values/#overview)
