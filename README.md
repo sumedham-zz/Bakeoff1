@@ -14,3 +14,6 @@
 9. Push PR to master
 10. New source on master branch should be reflected in the production app config in the cloud. 
 11. Repeat.
+
+
+This repo has a sample state of what your development and master/prod branch should look like when using Realm Apps with Github Autodeploy
