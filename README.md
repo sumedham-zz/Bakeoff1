@@ -3,8 +3,8 @@
 
 #### Github auto deploy currently needs initial UI configuration - start with 2 separate apps created, designate one app per environment
 
-1. [UI] Add environment tags to the dev and prod app in the ‘Deployment’ section
-2. [UI] Add relevant environment variables that you may already be using in your app logic in the ‘Values’ section
+1. Add environment tags to the dev and prod app in the ‘Deployment’ section of the UI or locally
+2. Add relevant environment variables that you may already be using in your app logic in the ‘Values’ section of the UI or locally
 3. [UI] Configure both apps to deploy from the Github branches/repositories corresponding to each app’s environments in the ‘Deployment’ section
 4. Export the dev app via UI or realm-cli
 5. Use `%%environment.values.<name>` or `context.environment.<name>` to use across configs and environment values to define environment variables. This sample uses it in config.json under the 'mongodb-atlas' datasource
