@@ -9,7 +9,8 @@
 4. Export the dev app via UI or realm-cli
 5. Use `%%environment.values.<name>` or `context.environment.<name>` to use across configs and environment values to define environment variables. 
 6. Push config to the dev GitHub branch linked to the dev app
-7. Make PR to master/prod or run any CI/CD action when commit is pushed
+7. Make PR to master/prod or run any CI/CD actions (builds, tests, etc) when commit is pushed
 8. Ensure master branch source has environment set to ‘production’ in realm_config.json - don’t change this after the first time this is set and add file to .gitignore if needed. 
-9. New source on master branch should be reflected in the production app config in the cloud. 
-10. Repeat.
+9. Push PR to master
+10. New source on master branch should be reflected in the production app config in the cloud. 
+11. Repeat.
