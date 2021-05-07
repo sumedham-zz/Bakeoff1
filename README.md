@@ -16,6 +16,11 @@
 11. Repeat.
 
 
-This repo has a sample state of what your development and master/prod branch should look like when using Realm Apps with Github Autodeploy
+Note:
+Once the setup is complete, Realm will not save the env variable templates in any config.json in a subsequent export from the UI/CLI. 
+E.g. importing `"cluster_name":"%(%%environment.values.ourEnvTag)"` will resolve to the value of `'ourEnvTag'` in the cloud, and exporting the same app again will result in `cluster_name` having a static value in the config.json. This does not apply to environment references in function source or rule expressions. 
+
+
+This repo has a sample state of what your development branch and master/prod branch could look like when using Realm Apps with Github Autodeploy
 
 [Environment Variable Docs](https://docs.mongodb.com/realm/values-and-secrets/define-environment-values/#overview)
