@@ -1,7 +1,7 @@
 # Basic Realm Environment Workflow + CI/CD
 
 
-#### Github auto deploy currently needs initial UI configuration - start with 2 apps created on the UI
+#### Github auto deploy currently needs initial UI configuration - start with 2 separate apps created, designate one app per environment
 
 1. [UI] Add environment tags to the dev and prod app in the ‘Deployment’ section
 2. [UI] Add relevant environment variables that you may already be using in your app logic in the ‘Values’ section
